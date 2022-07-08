@@ -5,7 +5,7 @@ os: linux
 
 files:
   - source: /
-    destination:  /home/ec2-user/server
+    destination:  ~/home/ec2-user/server
 permissions:
   - object:  /
     owner: ec2-user
