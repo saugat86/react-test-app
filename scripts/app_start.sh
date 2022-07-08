@@ -1,5 +1,5 @@
 #!/bin/bash
-cd /ver/www/html/src
+cd  /home/ec2-user/src
 npm start
 pm2 start npm --name "react-test-app" -- start
 pm2 startup
